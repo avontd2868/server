@@ -50,7 +50,7 @@ const shareWithTitle = function(share) {
 			{ escape: false }
 		)
 	} else if (share.type === OC.Share.SHARE_TYPE_ROOM) {
-		if (share.share_with_displayname) {
+		if (share.shareWithDisplayName) {
 			return t(
 				'files_sharing',
 				'Shared with you and the conversation {conversation} by {owner}',
